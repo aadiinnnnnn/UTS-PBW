@@ -4,7 +4,7 @@ body {
   font-family: "Jost", sans-serif;
   font-weight: 400;
   color: #555;
-  background: #e6e6fa;
+  background: linear-gradient(to right, #d4aaff, #fff, #d4aaff);
 }
 
 img {
@@ -46,7 +46,7 @@ a:hover {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 14px;
-  color: #5a509b;
+  color: #6f00ff;
   letter-spacing: 3px;
   position: relative;
 }
@@ -59,13 +59,13 @@ a:hover {
   left: auto;
   width: 0;
   height: 2px;
-  background: #d4aaff;
+  background: grey;
   transition: ease all 0.3s;
 }
 
 .main-header .navbar-nav > li > .nav-link:hover,
 .main-header .navbar-nav > li > .nav-link.active {
-  color: #d4aaff;
+  color: #4b0082;
 }
 
 .main-header .navbar-nav > li > .nav-link:hover::after,
