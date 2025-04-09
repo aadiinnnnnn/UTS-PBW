@@ -134,46 +134,23 @@ a:hover {
   box-shadow: 0 0.125rem 0.25rem rgba(55, 55, 55, 0.07);
 }
 
-.colored-btn {
-  padding: 8px 20px;
-  border: 2px solid #1359d2;
-  font-size: 14px;
-  line-height: 1.5;
-  text-decoration: none;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  transition: ease all 0.3s;
-  display: inline-block;
-  background: #1359d2;
-  color: #fff;
-  box-shadow: 6px 6px 0 -1px #a29c9c;
-}
-
-.colored-btn:hover {
-  color: #fff;
-  background: #373737;
-  border-color: #373737;
-  box-shadow: 5px 5px 0 -2px #1359d2;
-}
-
 .bg-1 {
-  background-color: rgb(140, 218, 237);
+  background: linear-gradient(to right, #fff, #d4aaff, #d4aaff);
 }
 .bg-2 {
-  background-color: #81ecb3;
+  background: linear-gradient(to right, #d4aaff, #d4aaff, #fff);
 }
 .bg-3 {
-  background-color: #dcf78a;
+  background: linear-gradient(to right, #fff, #d4aaff, #d4aaff);
 }
 .bg-4 {
-  background-color: #fe9b9b;
+  background: linear-gradient(to right, #d4aaff, #d4aaff, #fff);
 }
 .bg-5 {
-  background-color: #ca81c1;
+  background: linear-gradient(to right, #fff, #d4aaff, #d4aaff);
 }
 .bg-6 {
-  background-color: #d7b882;
+  background: linear-gradient(to right, #d4aaff, #d4aaff, #fff);
 }
 
 main {
